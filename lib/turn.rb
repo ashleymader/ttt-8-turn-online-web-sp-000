@@ -33,10 +33,4 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  user_input = gets.strip
-  input_to_index(user_input)
-  if new_user_input != valid_move
-    puts "Please select another space"
-  else
-    puts X 
 end
