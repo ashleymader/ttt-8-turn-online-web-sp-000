@@ -36,8 +36,6 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index)
-    puts move
-  else 
-    puts "Please select a valid space, 1-9:"
+    puts mov
   end
 end
