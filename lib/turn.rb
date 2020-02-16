@@ -40,4 +40,5 @@ def turn(board)
   else 
     puts "Please select a valid space. 1-9:"
     user_input =  gets.strip
+  end
 end
