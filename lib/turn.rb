@@ -37,4 +37,6 @@ def turn(board)
   input_to_index(user_input)
   if new_user_input = valid_move
     puts move
+  else 
+    puts "Please select a valid space"
 end
